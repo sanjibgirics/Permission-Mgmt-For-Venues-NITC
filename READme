@@ -1,0 +1,17 @@
+Software Requirement:
+Apache Tomcat9
+Eclipse JEE
+mysql 5.7
+
+Changes Required to Run the Project:
+	Database Import-
+		Create database PermissionManagement in mysql
+		Import PermissionManagement.sql to created Database
+	Changes in code-
+		Open file PermissionManagement/src/in/ac/nitc/permission/dbconnection/DBConnection.java
+		change mysql user and password to your mysql user and password
+	Jar needed-
+		mysql-connector-java-8.0.15.jar 
+		Add this jar file in eclipse using buildpath option and also make sure you deploy it.
+		build path>configure build path>library>add external jar
+		deployment assembly>add>java build path entries
